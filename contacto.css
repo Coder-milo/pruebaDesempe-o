@@ -1,0 +1,21 @@
+body {
+    padding: 0 20px;
+    box-shadow: 0 8px 20px rgb(0, 67, 148);
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-color: rgb(250, 240, 227);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
