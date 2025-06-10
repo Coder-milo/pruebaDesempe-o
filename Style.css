@@ -39,7 +39,6 @@ nav a {
     font-weight: bold;
     transition: color 0.3s;
 }
-
 nav a:hover {
     color: #ff9900;
 }
@@ -49,7 +48,6 @@ h1 {
     text-align: center;
     margin-top: 30px;
 }
-
 h2 {
     background-color: #0c2b50;
     color: #fdf1e1;
@@ -59,20 +57,18 @@ h2 {
     text-align: center;
     font-size: 2rem;
 }
-
 h3 {
     color: #0c2b50;
     font-size: 1.4rem;
     margin-bottom: 10px;
 }
-
 .imagen-principal {
     max-width: 500px;
     width: 100%;
     display: block;
     margin: 20px auto;
 }
-#Python, #C{
+#Python, #C {
     width: 80px;
 }
 p {
@@ -80,7 +76,6 @@ p {
     line-height: 1.6;
     margin: 20px 0;
 }
-
 .lenguajes {
     display: flex;
     justify-content: center;
@@ -115,24 +110,20 @@ p {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .grid-item:hover {
     transform: translateY(-40px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-
 .grid-item img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
 }
-
 .redes {
     text-align: center;
     margin-top: 40px;
 }
-
 .redes a {
     display: inline-block;
     margin: 10px;
@@ -141,7 +132,6 @@ p {
     text-decoration: none;
     transition: color 0.3s;
 }
-
 .redes a:hover {
     color: #ff0000;
 }
@@ -150,31 +140,29 @@ footer {
     background-color: #0c2b50;
     color: antiquewhite;
     text-align: center;
-    padding:5px;
+    padding: 5px;
     margin-top: 40px;
     margin-bottom: 20px;
     border-radius: 0 0 12px 12px;
 }
-footer p{
+footer p {
     text-align: center;
     justify-content: center;
 }
+
 @media (max-width: 1024px) {
     nav ul {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
     }
-
     nav ul li {
         margin: 5px 0;
     }
-
-    h2, h3{
+    h2, h3 {
         font-size: 1.5rem;
         padding: 10px 20px;
     }
-
     .grid-container {
         justify-content: center;
     }
@@ -193,7 +181,6 @@ footer p{
         gap: 1rem;
     }
 }
-
 @media (max-width: 480px) {
     h1 {
         font-size: 2rem;
